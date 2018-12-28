@@ -7,6 +7,6 @@ def oxford_comma(array)
    element = array.pop
    array.push " and " 
    new_aray = array.join(", ")
-   new_aray.push("#{element}")
+   new_aray.push "#{element}"
  end
 end
